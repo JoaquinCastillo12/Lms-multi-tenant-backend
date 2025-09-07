@@ -1,0 +1,31 @@
+{
+  "name": "lms-backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-05",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "0fc07942-b510-485d-9876-556dde641788",
+      "database_name": "pruebatecnica",
+      "migrations_dir": "./drizzle/migrations"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "KV_SESSIONS",
+      "id": "fe5b1c10367d41308d885f49aca4c2a9"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "R2_BUCKET",
+      "bucket_name": "pruebatecnica",
+      "preview_bucket_name": "pruebatecnica"
+    }
+  ],
+  "vars": {
+    "JWT_SECRET": "uQ8s!9fK2mR#4vL7zX1pW0eC6yT@bH5",
+    "API_KEY": "uQ8s!9fK2mR#4vL7zX1pW0eC6yT@bH5"
+  }
+}
+
